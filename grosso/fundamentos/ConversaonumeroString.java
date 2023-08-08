@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class ConversaonumeroString {
+	public static void main(String[] args) {
+		Integer num1 = 100000;
+		System.out.println(num1.toString());
+		
+		int num2 = 100000;
+		System.out.println(Integer.toString(num2).length());
+		
+		System.out.println(("" + num1).length());
+		System.out.println(("" + num2).length());
+	}
+
+}
